@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo_hitam"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="20dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="375dp"
+        android:layout_marginTop="25dp">
+
+    <ImageView
+        android:id="@+id/mart"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/menu_gomart"
+        android:layout_marginLeft="40dp"
+        />
+
+     <ImageView
+        android:id="@+id/food"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/menu_gofood"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="40dp"
+        />
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/menu_goride"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp"/>
+
+    <ImageView
+        android:id="@+id/send"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/menu_gosend"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="40dp"/>
+
+    </RelativeLayout>
+
+
+
+
+
+</LinearLayout>
